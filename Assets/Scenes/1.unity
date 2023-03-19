@@ -150,9 +150,25 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1882426557667399047, guid: 1a9eca3ae6636334bbced9dbdfa05679, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1105893830, guid: 7c0df84c4a4c23b4bbd4e1d4bd716967, type: 3}
     - target: {fileID: 1882426558689318792, guid: 1a9eca3ae6636334bbced9dbdfa05679, type: 3}
       propertyPath: m_UiScaleMode
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1882426558689318792, guid: 1a9eca3ae6636334bbced9dbdfa05679, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1882426558689318792, guid: 1a9eca3ae6636334bbced9dbdfa05679, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1440
+      objectReference: {fileID: 0}
+    - target: {fileID: 1882426558689318792, guid: 1a9eca3ae6636334bbced9dbdfa05679, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 1882426558689318794, guid: 1a9eca3ae6636334bbced9dbdfa05679, type: 3}
       propertyPath: m_Pivot.x
@@ -1287,10 +1303,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1440, y: 1080}
   m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -2316,6 +2332,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 540569774856910, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_text
+      value: 'Your Score
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 540569774856910, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_fontSize
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 540569774856910, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 89a05c3b955131248a401875a37f6c3f, type: 2}
+    - target: {fileID: 540569774856910, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 540569774856910, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 540569774856910, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 540569774856910, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1643348863514381379, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
       propertyPath: m_Name
       value: Home Icon (2)
@@ -2540,6 +2586,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7299289840051832396, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7299289840051832396, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7299289840051832396, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1440
+      objectReference: {fileID: 0}
+    - target: {fileID: 7299289840051832396, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 7299289840051832398, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
       propertyPath: m_Name
       value: Score Canvas
@@ -2548,8 +2610,80 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7299289840790144396, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2133754399, guid: 3d3b72c0d5ef80c4fa63b95d960127ba, type: 3}
     - target: {fileID: 7299289840790144398, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7855707529300897810, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_text
+      value: New!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7855707529300897810, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7855707529300897810, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 176afa4de7ea72e4bafefeff42f74653, type: 2}
+    - target: {fileID: 7855707529300897810, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 7855707529300897810, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.5254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 7855707529300897810, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.8431373
+      objectReference: {fileID: 0}
+    - target: {fileID: 7855707529300897810, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7855707529300897810, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 7855707529300897810, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7855707529300897810, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972129863502762350, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_text
+      value: Best Score
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972129863502762350, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_fontSize
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972129863502762350, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 89a05c3b955131248a401875a37f6c3f, type: 2}
+    - target: {fileID: 7972129863502762350, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972129863502762350, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972129863502762350, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7972129863502762350, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8962888414974102685, guid: b93acfab8c40fc44382b91e001a6378f, type: 3}
@@ -2868,6 +3002,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 262796836}
+    - target: {fileID: 3984660225325132121, guid: 2a8fad431bc00524285e5a9b80dd8d2f, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3984660225325132121, guid: 2a8fad431bc00524285e5a9b80dd8d2f, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3984660225325132121, guid: 2a8fad431bc00524285e5a9b80dd8d2f, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1440
+      objectReference: {fileID: 0}
+    - target: {fileID: 3984660225325132121, guid: 2a8fad431bc00524285e5a9b80dd8d2f, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 4575365375461188561, guid: 2a8fad431bc00524285e5a9b80dd8d2f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
