@@ -37,18 +37,19 @@ public class SpawnerCoroutine : MonoBehaviour
             GameObject Objecttospawn = gameObjects[objectIndex];
             if (Objecttospawn.CompareTag("Mercan"))
             {
-                yield return new WaitForSeconds(1.0f);
+                yield return new WaitForSeconds(1f + TotalScores.Difficultyspawner);
                 //öncesinde de 1sn bekleyecek
-                spawnInternal = 2.0f;
-                //sonrasýnda 4sn bekleyecek
+                spawnInternal = (2f + 2* TotalScores.Difficultyspawner);
+                //sonrasýnda 2sn bekleyecek
             }
             else
             {
 
-                spawnInternal = 1.0f;
+                spawnInternal = 1f + TotalScores.Difficultyspawner;
             }
             GameObject spawnedobject = Instantiate(Objecttospawn, transform.position, Quaternion.identity);
             //objenin kopyasýný oluþturuyor
+            Debug.Log("spawn internal is: "+ spawnInternal);
             yield return new WaitForSeconds(spawnInternal);
             //spawninternal kadar bekleyip loopun baþýna dönüyor
         }

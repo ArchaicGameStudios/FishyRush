@@ -58,6 +58,7 @@ public class Scoring : MonoBehaviour
             //FindObjectOfType<Scoring>().IncreaseScore();
             TotalScores.totalScore++;
             _textscore.text = "Score " + TotalScores.totalScore.ToString();
+            Debug.Log("start:" + Time.time);
         }
         else if (other.gameObject.CompareTag("Artican"))
         {

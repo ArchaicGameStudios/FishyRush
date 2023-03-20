@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Corals : MonoBehaviour
 {
-    public float coralSpeed = 10.0f;
+    private float coralSpeed = 6.0f;
     private float leftEdge;
     //Random.Range(0.0F, 1.0F) < 0.5F ? 90.0F : -90.0F;
     private float rotationAngle;

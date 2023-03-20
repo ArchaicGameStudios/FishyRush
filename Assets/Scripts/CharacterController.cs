@@ -17,7 +17,6 @@ public class CharacterController : MonoBehaviour
         if ((Input.GetKeyDown(KeyCode.Space)))
         {
             direction = Vector3.down * strength;
-            Debug.Log("spacee basýldý");
         }
         // mobil:
         if (Input.touchCount > 0)
@@ -26,7 +25,6 @@ public class CharacterController : MonoBehaviour
             if (touch.phase == TouchPhase.Began)
             {
                 direction = Vector3.down * strength;
-                Debug.Log("mobilde dokundu");
             } 
         }
         direction.y += gravity * Time.deltaTime;
