@@ -19,7 +19,7 @@ public class Corals : MonoBehaviour
         transform.Rotate(0.0f, 0.0f, rotationAngle);
         if ( gameObject.tag == "Mercan")
         {
-            heartOlasýlýk = Random.Range(0.0F, 1.0F) < 0.5f ? 0.0f : 1.0f;
+            heartOlasýlýk = Random.Range(0.0F, 1.0F) < 0.3f ? 0.0f : 1.0f;
             if (heartOlasýlýk == 0.0f)
             {
                 gameObject.transform.GetChild(2).gameObject.SetActive(true);

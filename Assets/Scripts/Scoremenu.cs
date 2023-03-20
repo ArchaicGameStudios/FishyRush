@@ -18,7 +18,7 @@ public class Scoremenu : MonoBehaviour
             PlayerPrefs.SetInt("highscore", TotalScores.highScore);
         }
         //her active edildiðinde yeniden yazacak.
-        _scoretext.text = "your score is " + TotalScores.totalScore.ToString();
-        _highscoretext.text = "high score is" + TotalScores.highScore.ToString();
+        _scoretext.text = TotalScores.totalScore.ToString();
+        _highscoretext.text = TotalScores.highScore.ToString();
     }
 }
